@@ -1,0 +1,52 @@
+[{
+  "id": 0,
+  "name": "Gym-Plan A",
+  "days": 5,
+  "level": "Beginner",
+  "per-day-hr": 1.5,
+  "price": 300,
+  "description": "This is a workout for beginners who want to start workout.It consists of basic workouts which will make your body stable for weight training.",
+  "duration": "1.5 months",
+  "workouts-distribution": ["Monday-Chest", "Tuesday-Arms", "Wednesday-Back", "Thursday-Rest", "Friday-Legs", "Saturday-Shoulder", "Sunday-Rest"],
+  "cardio": "everyday 30 minutes"
+}, {
+  "id": 1,
+  "name": "Gym-Plan B",
+  "days": 6,
+  "level": "Intermidate",
+  "per-day-hr": 1.7,
+  "price": 500,
+  "description": "This is a workout for Amateur ones who are keen to weight training.One develops better physic, muscle growth, heavy weight lifting etc.",
+  "duration": "6 months",
+  "workouts-distribution": [{
+    "name": "Bro-Split",
+    "workouts-distribution": ["Monday-Chest_Shoulder", "Tuesday-Back_Biceps", "Wednesday-Legs_Triceps", "Thursday-Chest_Shoulder", "Friday-Back_Biceps", "Saturday-Legs_Triceps", "Sunday-Rest"]
+  }, {
+    "name": "Bro-Split-Abs",
+    "workouts-distribution": ["Monday-Chest_Shoulder", "Tuesday-Back_Biceps", "Wednesday-Legs", "Thursday-Tricep-Abs", "Friday-Chest_Shoulder", "Saturday-Back_Biceps", "Sunday-Rest"]
+  }],
+  "cardio": "skip-or-yes"
+}, {
+  "id": 2,
+  "name": "Gym-Plan C",
+  "days": 6,
+  "level": "Advance",
+  "per-day-hr": 1.7,
+  "price": 600,
+  "description": "This is a workout for Expert ones who are keen to weight training.One develops better physic, muscle growth, heavy weight lifting etc.",
+  "duration": "10 months",
+  "workouts-distribution": [{
+    "name": "Bro-Split",
+    "workouts-distribution": ["Monday-Chest_Shoulder", "Tuesday-Back_Biceps", "Wednesday-Legs_Triceps", "Thursday-Chest_Shoulder", "Friday-Back_Biceps", "Saturday-Legs_Triceps", "Sunday-Rest"]
+  }, {
+    "name": "Bro-Split-Abs",
+    "workouts-distribution": ["Monday-Chest_Shoulder", "Tuesday-Back_Biceps", "Wednesday-Legs", "Thursday-Tricep-Abs", "Friday-Chest_Shoulder", "Saturday-Back_Biceps", "Sunday-Rest"]
+  }],
+  "cardio": "after main workout"
+}, {
+  "id": 3,
+  "name": "Custom-Workout",
+  "days": 4,
+  "per-day-hr": 1,
+  "workout-distribution": ["....."]
+}]
