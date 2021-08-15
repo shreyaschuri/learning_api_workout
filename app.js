@@ -102,7 +102,4 @@ workoutRouter
 
 app.use('/api/v1/workouts', workoutRouter);
 
-const port = 4000;
-app.listen(port, () => {
-  console.log(`App running on port ${port}....`)
-});
+module.exports = app;
